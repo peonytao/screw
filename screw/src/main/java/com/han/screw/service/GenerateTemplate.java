@@ -21,11 +21,11 @@ public abstract class GenerateTemplate {
 
     final String driverClassName = "com.mysql.cj.jdbc.Driver";
 
-    final String jdbcUrl = "jdbc:mysql://192.168.0.129:3333/";
+    final String jdbcUrl = "jdbc:mysql://127.0.0.1:3306/";
 
     final String username = "root";
 
-    final String password = "123456";
+    final String password = "root";
 
     /**
      * 初始化数据源
